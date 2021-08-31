@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Components that don't output HTML -->
+  
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hi, I'm Junaid Ahmed Shaikh. Still I'm learning Java and Js,HTML,CSS, This is my portfolio site! Here you can see my projects, articles, and other information about me." />
+    <meta name="keywords" content="portfolio site, junaid, junaid ahmed shaikh, shaikh, personal website, javascript developer mumbai, mumbai, portfolio ui" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="author" content="Junaid Ahmed Shaikh" />
+    <meta name="copyright" content="Junaid Ahmed Shaikh" />
+    <meta name="robots" content="follow"/>
+    
+    <link rel=icon sizes=192x192 href="/assets/images/logo-192.png" />
+    <meta name="theme-color" content="#011f41" />
+    <link rel="manifest" href="manifest.json">
+
+     <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="junaidShaikh" />
+    <meta property="og:url" content="https://junaidahmedshaikh.in" />
+    
+    <meta name="twitter:card" content="summary_large_image"></meta>
+    <meta name="Instagram:creator" content="@addy_james_official"></meta>
+
+    <meta property="og:image:secure_url" itemprop="image" content="https://res.cloudinary.com/saurabhdaware/image/upload/v1582781246/saurabh2019/saurabh2020-og-600-300.png"/>
+    <meta property="og:image" itemprop="image" content="https://res.cloudinary.com/saurabhdaware/image/upload/v1582781246/saurabh2019/saurabh2020-og-600-300.png"/>
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="300" />
+
+    <meta property="og:image:secure_url" itemprop="image" content="https://res.cloudinary.com/saurabhdaware/image/upload/v1582781240/saurabh2019/saurabh2020-og-700-700.png"/>
+    <meta property="og:image" itemprop="image" content="https://res.cloudinary.com/saurabhdaware/image/upload/v1582781240/saurabh2019/saurabh2020-og-700-700.png"/>
+    <meta property="og:image:width" content="700" />
+    <meta property="og:image:height" content="700" />
+    <meta property="og:image:alt" content="OG image of portfolio" />
+    <meta property="og:description" content="Hi, I'm Junaid. This is my portfolio site! Here you can see my projects, articles, and other information about me. Click the link to know more :D" />
+    <meta property="og:site_name" content="junaidahmedshaikh.in"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="in.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" as="style" media="all" href="main.abell.css" onload="this.onload=null;this.rel = 'stylesheet';" />
+    <link rel="preload" as="font" href="in.ttf" />
+    
+    <title>Junaid-Shaikh</title>
+  
+<style>
+  :root {
+    --primary-background: #121212;
+    --secondary-background: #ffffff11;
+    --primary-accent: #011f41;
+    --primary-font: #ccc;
+    --secondary-font: #999;
+    --link-color: #93b6f1;
+  }
+  
+  html, body {
+    margin: 0px;
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--primary-background);
+    color: var(--primary-font);
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
+  }
+
+  a { text-decoration: none; }
+
+  .invisible-before-load {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .hide-before-load { display: none; }
+
+  .text-xxlarge { font-size: 3.83rem; }
+
+  .text-large { font-size: 1.58rem; }
+
+  @media (max-width: 768px) {
+    .text-xxlarge {
+      font-size: 2rem;
+    }
+    .text-large {
+      font-size: 1.08rem;
+    }
+  }
+#top[data-abell-llXQAB]{height:190%;width:100%;position:relative;background-image:linear-gradient(var(--primary-accent) 70%,#03428b);overflow:hidden;}canvas[data-abell-llXQAB]{height:100%;width:100%;top:0;left:0;position:absolute;}.city-image[data-abell-llXQAB]{position:absolute;bottom:0px;left:0px;width:100%;}.subhead[data-abell-llXQAB]{opacity:.7;}.hello-text[data-abell-llXQAB]{position:absolute;top:110px;padding:100px;}.scroll-down-indicator[data-abell-llXQAB]{display:none;}@media (max-width: 768px){.hello-text[data-abell-llXQAB]{top:160px;padding:20px;width:260px;}astro-guy[data-abell-llXQAB]{top:unset!important;bottom:calc(50% + 130px)!important;left:30px!important;}}</style>
+
+
+</head>
+  <body>
+    <section id="top" data-abell-llXQAB>
+    <canvas height="300" width="600" id="starfield" data-abell-llXQAB></canvas>
+    <canvas height="300" width="600" id="shooting-star" data-abell-llXQAB></canvas>
+    <div class="overlay" data-abell-llXQAB>
+      <div class="hello-text blur-before-font-load" data-abell-llXQAB>
+      <div class="text-xxlarge float seven-float" data-abell-llXQAB>Hi,<br data-abell-llXQAB>I'm<b style="margin-left:5px;" data-abell-llXQAB>Junaid Shaikh</b></div>
+      <div class="text-large subhead float five-float" data-abell-llXQAB>&nbsp;I make random things,</div>
+        <div class="social-ico-header invisible-before-load float eight-float" data-abell-cfQxV data-abell-llXQAB>
+    <a title="Junaid Instagram Profile" target="_blank" rel="noopener" href="https://www.instagram.com/addy_james_official/" class="icon icon-twitter no-link-style" data-abell-cfQxV data-abell-llXQAB></a>
+    <a title="Junaid LinkedIn Profile" target="_blank" rel="noopener" href="https://www.linkedin.com/mwlite/in/junaid-ahmed-shaikh-8b533b205" class="icon icon-linkedin-squared no-link-style" data-abell-cfQxV data-abell-llXQAB></a>
+    <a title="Junaid GitHub Profile" target="_blank" rel="noopener" href="https://github.com/Junaid767" class="icon icon-github-circled no-link-style" data-abell-cfQxV data-abell-llXQAB></a>
+  </div>
+      </div>
+    </div>
+    <a class="scroll-down-indicator float no-link-style invisible-before-load" href="#about" data-abell-llXQAB>Scroll Down</a>
+    <img 
+      alt="A canvas of Mumbai City" 
+      loading="eager" 
+      class="city-image hide-before-load" 
+      src="city2.svg" 
+    data-abell-llXQAB />
+
+    <astro-guy class="float hover-wave" data-abell-llXQAB></astro-guy>
+  </section>
+    <div class="invisible-before-load" data-abell-ctznot>
+    <button aria-label="navbar button" class="nav shadow" onclick="this.classList.toggle('open')" data-abell-ctznot>
+      <span class="bars" data-abell-ctznot>
+        <span data-abell-ctznot></span>
+        <span data-abell-ctznot></span>
+        <span data-abell-ctznot></span>
+      </span>
+    </button>
+    <nav class="nav-content" data-abell-ctznot>
+      <a class="nav-item about no-link-style" href="#about" data-abell-ctznot>
+        <span class="icon icon-info-circled" data-abell-ctznot></span>
+        <span class="name" data-abell-ctznot>About</span>
+      </a>
+      <a class="nav-item home no-link-style" href="#top" data-abell-ctznot>
+        <span class="icon icon-home" data-abell-ctznot></span>
+        <span class="name" data-abell-ctznot>Home</span>
+      </a>
+      <a class="nav-item projects no-link-style" href="#projects" data-abell-ctznot>
+        <span class="icon icon-gamepad" data-abell-ctznot></span>
+        <span class="name" data-abell-ctznot>Projects</span>
+      </a>
+      <a class="nav-item resume no-link-style" href="#blog" data-abell-ctznot>
+        <span class="icon icon-doc-text-inv" data-abell-ctznot></span>
+        <span class="name" data-abell-ctznot>Blog</span>
+      </a>
+    </nav>
+    <div class="nav-overlay" data-abell-ctznot></div>
+  </div>
+
+    <section class="about container" id="about" data-abell-kPnxIg>
+    <p data-abell-kPnxIg>
+      I'm currently studying in class 12th. I want to pursue a career as a developer.
+      I like music and movies, sketching (I am bad at it), and walking through the random places.
+    </p>
+    <p data-abell-kPnxIg>
+      In this portfolio, I will put my project very soon
+      <!--you will find my <a href="#projects" data-abell-kPnxIg>Projects</a>, <a href="#blog" data-abell-kPnxIg>Blog</a>, and all the things that I want to brag about.-->
+    </p>
+
+    <div style="position: relative; text-align: right;" data-abell-kPnxIg>
+      <astro-guy class="casual spreader" data-abell-kPnxIg></astro-guy>
+    </div>
+  </section>
+
+    <footer class="lazyload shadow" data-abell-hHyzrs>
+    <div style="display:flex;" data-abell-hHyzrs>
+      <div class="footer-links" style="flex:1;" data-abell-hHyzrs>
+        <a style="color: #999" href="#top" data-abell-hHyzrs>Scroll to Top</a>
+        <a href="#projects" data-abell-hHyzrs>Projects</a>
+        <a href="#blog" data-abell-hHyzrs>Blog</a>
+        <a href="#about" data-abell-hHyzrs>About me</a>
+      </div>
+      <div class="soc" style="flex:1;text-align:center;" data-abell-hHyzrs>
+        <span id="bmc-container" data-abell-hHyzrs></span>
+        <br data-abell-hHyzrs><a class="no-link-style btn secondary-btn" href="resumejunaid.jpeg" style="margin-top:20px;display:inline-block;text-align:center;width:180px !important;" data-abell-hHyzrs>View Resume <span style="font-size:13pt;" class="icon icon-doc-text-inv" data-abell-hHyzrs></span></a>
+        <div class="social-ico-header invisible-before-load " data-abell-cfQxV data-abell-hHyzrs>
+    <a title="Junaid Instagram Profile" target="_blank" rel="noopener" href="https://www.instagram.com/addy_james_official/" class="icon icon-twitter no-link-style" data-abell-cfQxV data-abell-hHyzrs></a>
+    <a title="Junaid LinkedIn Profile" target="_blank" rel="noopener" href="https://www.linkedin.com/mwlite/in/junaid-ahmed-shaikh-8b533b205" class="icon icon-linkedin-squared no-link-style" data-abell-cfQxV data-abell-hHyzrs></a>
+    <a title="Junaid GitHub Profile" target="_blank" rel="noopener" href="https://github.com/Junaid767" class="icon icon-github-circled no-link-style" data-abell-cfQxV data-abell-hHyzrs></a>
+    <a title="Junaid Instagram Profile" target="_blank" rel="noopener" href="https://www.instagram.com/addy_james_official/" class="icon icon-dev no-link-style" data-abell-cfQxV data-abell-hHyzrs></a>
+  </div>
+      </div>
+    </div>
+    <div style="background-color:#393939;font-size: 11pt; padding:20px 20px;text-align:left;" data-abell-hHyzrs>©️&nbsp;<span id="currentYear" data-abell-hHyzrs></span> Junaid Ahmed Shaikh,&nbsp;Built with 🤍</div>
+  </footer>
+    <!-- JS -->
+    <script type="module">
+      import AstroGuy from '/js/astro-guy.mjs';
+      // Components
+      customElements.define('astro-guy', AstroGuy);
+    </script>
+  <script>
+ function preloadSupported() {
+    var relList = document.createElement('link').relList;
+    return !!(relList && relList.supports && relList.supports('preload'));
+  }
+
+  if (!preloadSupported()) {
+    document.head.innerHTML += /* html */ `
+      <link rel="stylesheet" as="style" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic&display=swap" />
+      <link rel="stylesheet" href="in.css" as="style" media="all" />
+      <link rel="stylesheet" as="style" media="all" href="main.abell.css" />
+    `
+  }
+</script>
+<script src="main.abell.js"></script>
+</body>
+</html>
